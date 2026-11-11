@@ -6,6 +6,7 @@ import { Moon, Settings, Sun } from "lucide-react"
 
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "./ui/dropdown-menu"
 import { Button } from "./ui/button"
+import Logo from "@components/Logo"
 
 const Navbar = () => {
   const {setTheme} = useTheme()
@@ -13,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center m-4 md:mx-12">
       <section className="">
-        <Link href="/">Logo</Link>
+        <Logo />
       </section>
       <section className="flex items-center gap-2 md:gap-4">
         {/*THEMES*/}
