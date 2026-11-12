@@ -16,7 +16,7 @@ const NotFound = () => {
 
         <article className="text-center mx-8">
             <h1 className="font-bold capitalize tracking-wide">Page Not Found</h1>
-            <p className="font-thin mb-2 leading-5 tracking-tight">Either this page doesn't exist, or you don't have access to this page.</p>
+            <p className="font-light mb-2 leading-5 tracking-tight">Either this page doesn't exist, or you don't have access to this page.</p>
             
             <Button variant="outline" size="sm" onClick={() => router.back()}>
                <SquareArrowLeft/> Go back to previous page.

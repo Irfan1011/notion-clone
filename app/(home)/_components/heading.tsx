@@ -30,13 +30,13 @@ const heading = () => {
     },[])
 
   return (
-    <article className="h-full flex flex-col gap-4 place-items-center">
+    <article className="flex flex-col gap-4 place-items-center">
         <h1 className="text-3xl font-bold leading-12">Welcome to Notion Clone. Where teams and agents{" "}
             <span className={`w-fit px-6 inline-flex justify-between items-center gap-2 rounded-full text-black ${heading.background}`}>
                 <span className={`w-4 h-4 rounded-full ${heading.dot}`}></span>{heading.label}
             </span> together.
         </h1>
-        <h3 className="font-thin leading-6">Capture context, find answers, and automate task with AI built for your team.</h3>
+        <h3 className="font-light leading-6">Capture context, find answers, and automate task with AI built for your team.</h3>
         <Button size="lg"><Link href="/dashboard" className="flex items-center gap-2">Enter Notion <ArrowRight/></Link></Button>
     </article>
   )
